@@ -1,5 +1,5 @@
 {
-    let strip = neopixel.create(DigitalPin.P0, 24, NeoPixelMode.RGB);
+    let strip = science4kids.create(DigitalPin.P0, 24, NeoPixelMode.RGB);
 
     strip.showRainbow();
     for (let i = 0; i <= strip.length(); i++) { 
@@ -13,12 +13,12 @@
     strip.showColor(NeoPixelColors.Green)
     basic.pause(1000)
     for (let i = 0; i <= strip.length(); i++) {
-        strip.setPixelColor(i, neopixel.colors(NeoPixelColors.Blue))
+        strip.setPixelColor(i, science4kids.colors(NeoPixelColors.Blue))
         strip.show()
         basic.pause(100)
     }
     for (let i = 0; i <= strip.length(); i++) {
-        strip.setPixelColor(i, neopixel.colors(NeoPixelColors.Green))
+        strip.setPixelColor(i, science4kids.colors(NeoPixelColors.Green))
         strip.show()
         basic.pause(100)
     }
@@ -69,7 +69,7 @@
         if (rotationMode) {
             strip.rotate();
         } else {
-            strip.setPixelColor(0, neopixel.rgb(x, y, -z));
+            strip.setPixelColor(0, science4kids.rgb(x, y, -z));
             strip.shift(1);
         }
         strip.show();
