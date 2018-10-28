@@ -45,11 +45,11 @@ namespace science4kids {
      * a 4x4 matrix
      */
 
-    export class 4x4matrix {
-        //% blockId="sciencce4kids_4x4_matrix" block="%matrix|show matrix"
-        //% weight=85 blockGap=8
-        show_matrix { }
-    }
+//    export class 4x4matrix {
+//        //% blockId="sciencce4kids_4x4_matrix" block="%matrix|show matrix"
+//        //% weight=85 blockGap=8
+//        show_matrix { }
+//    }
 
 
     /**
