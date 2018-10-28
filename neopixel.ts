@@ -42,6 +42,17 @@ enum NeoPixelMode {
 //% weight=5 color=#2699BF icon="\uf110"
 namespace neopixel {
     /**
+     * a 4x4 matrix
+     */
+
+    export class 4x4matrix {
+        //% blockId="sciencce4kids_4x4_matrix" block="%matrix|show matrix"
+        //% weight=85 blockGap=8
+        show_matrix { }
+    }
+
+
+    /**
      * A NeoPixel strip
      */
     export class Strip {
